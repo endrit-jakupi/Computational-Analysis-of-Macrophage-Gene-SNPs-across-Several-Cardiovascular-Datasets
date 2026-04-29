@@ -1,0 +1,11 @@
+{
+    "source_dataset": "GWAS Catalog API",
+    "query_strategy": "Gene-based PF4 query and variant-based rsID query",
+    "total_pf4_variants": 2030,
+    "priority_pf4_variants": 190,
+    "gene_query_associations": 107,
+    "variant_query_associations": 88,
+    "combined_associations": 107,
+    "selected_trait_associations": 0,
+    "unique_rsIDs_with_associations": 23
+}
