@@ -1,0 +1,2 @@
+gene_symbol,ensembl_gene_id,display_name,species,chromosome,gene_start,gene_end,strand,assembly_name,biotype,source,flanking_bp,region_start,region_end
+PF4,ENSG00000163737,PF4,homo_sapiens,4,73980811,73982027,-1,GRCh38,protein_coding,Ensembl REST lookup/symbol,50000,73930811,74032027

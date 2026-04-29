@@ -1,0 +1,9 @@
+{
+    "source_file": "../data/raw/hermes/heart_failure.tsv",
+    "source_dataset": "HERMES Heart Failure summary statistics without UK Biobank samples",
+    "phenotype": "Heart failure",
+    "total_pf4_variants": 1976,
+    "priority_pf4_variants": 176,
+    "hermes_pf4_matches": 5,
+    "hermes_priority_matches": 5
+}

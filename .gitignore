@@ -1,0 +1,10 @@
+# Raw large datasets
+data/raw/
+
+# Python/Jupyter temporary files
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store

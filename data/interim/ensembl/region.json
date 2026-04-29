@@ -1,0 +1,16 @@
+{
+    "gene_symbol": "PF4",
+    "ensembl_gene_id": "ENSG00000163737",
+    "display_name": "PF4",
+    "species": "homo_sapiens",
+    "chromosome": "4",
+    "gene_start": 73980811,
+    "gene_end": 73982027,
+    "strand": -1,
+    "assembly_name": "GRCh38",
+    "biotype": "protein_coding",
+    "source": "Ensembl REST lookup/symbol",
+    "flanking_bp": 50000,
+    "region_start": 73930811,
+    "region_end": 74032027
+}
