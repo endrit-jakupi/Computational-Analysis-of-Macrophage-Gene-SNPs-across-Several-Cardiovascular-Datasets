@@ -2,6 +2,9 @@
 data/raw/cardiogram_c4d/cad_harmonized.tsv
 data/raw/cardiogram_c4d/mi_harmonized.tsv
 data/raw/hermes/heart_failure.tsv
+data/raw/finngen/finngen_heart_failure.tsv
+data/raw/finngen/finngen_cad.tsv
+data/raw/finngen/finngen_mi.tsv
 
 # Ignore IDE files
 .idea/

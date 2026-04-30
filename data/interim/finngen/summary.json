@@ -1,0 +1,27 @@
+{
+    "source_dataset": "FinnGen R12 summary statistics",
+    "genome_assembly": "GRCh38",
+    "total_pf4_variants": 1976,
+    "priority_pf4_variants": 176,
+    "heart_failure": {
+        "source_file": "../data/raw/finngen/finngen_heart_failure.tsv",
+        "phenotype": "Heart failure",
+        "finngen_endpoint": "I9_HEARTFAIL",
+        "pf4_matches": 20,
+        "priority_matches": 15
+    },
+    "cad": {
+        "source_file": "../data/raw/finngen/finngen_cad.tsv",
+        "phenotype": "Coronary artery disease",
+        "finngen_endpoint": "I9_CHD",
+        "pf4_matches": 20,
+        "priority_matches": 15
+    },
+    "mi": {
+        "source_file": "../data/raw/finngen/finngen_mi.tsv",
+        "phenotype": "Myocardial infarction",
+        "finngen_endpoint": "I9_MI_STRICT",
+        "pf4_matches": 20,
+        "priority_matches": 15
+    }
+}

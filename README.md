@@ -20,6 +20,7 @@ Inside the project root, create the following directories:
 ```bash
 mkdir -p data/raw/hermes
 mkdir -p data/raw/cardiogram_c4d
+mkdir -p data/raw/finngen
 ```
 ## 2. HERMES (Heart Failure)
 
@@ -40,3 +41,21 @@ and place them as:
 
 data/raw/cardiogram_c4d/cad_harmonized.tsv.gz  
 data/raw/cardiogram_c4d/mi_harmonized.tsv.gz
+
+---
+
+## 4. FinnGen (Replication)
+
+FinnGen is used as an independent replication resource.
+
+Access the data from [here](https://www.finngen.fi/en/access_results) or download the required datasets directly:
+
+- I9_HEARTFAIL (Heart failure, strict) - download [here](https://storage.googleapis.com/finngen-public-data-r12/summary_stats/release/finngen_R12_I9_HEARTFAIL.gz)  
+- I9_CHD (Major coronary heart disease event) - download [here](https://storage.googleapis.com/finngen-public-data-r12/summary_stats/release/finngen_R12_I9_CHD.gz)  
+- I9_MI_STRICT (Myocardial infarction, strict) - download [here](https://storage.googleapis.com/finngen-public-data-r12/summary_stats/release/finngen_R12_I9_MI_STRICT.gz)
+
+Place the files as:
+
+data/raw/finngen/heart_failure.tsv  
+data/raw/finngen/cad.tsv  
+data/raw/finngen/mi.tsv
