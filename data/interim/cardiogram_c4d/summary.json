@@ -1,16 +1,14 @@
 {
     "source_dataset": "CARDIoGRAMplusC4D harmonized GWAS summary statistics",
     "genome_assembly": "GRCh38",
-    "total_pf4_variants": 2030,
+    "total_pf4_variants": 1976,
     "priority_pf4_variants": 176,
     "cad": {
-        "source_file": "../data/raw/cardiogram_c4d/cad_harmonized.tsv",
         "phenotype": "Coronary artery disease",
-        "pf4_matches": 11,
-        "priority_matches": 11
+        "pf4_matches": 8,
+        "priority_matches": 8
     },
     "mi": {
-        "source_file": "../data/raw/cardiogram_c4d/mi_harmonized.tsv",
         "phenotype": "Myocardial infarction",
         "pf4_matches": 0,
         "priority_matches": 0
