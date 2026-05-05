@@ -1,184 +1,184 @@
 source_dataset,phenotype,trait_name,rsID,chromosome,position,effect_allele,other_allele,effect_size,standard_error,p_value,allele_frequency,MAX_freq,Priority,Variant_type,Alleles_REF_ALT,Functional_consequence,Clinical_significance,Location_relative_to_PF4
 GWAS Catalog API,,CXCL1/CXCL3 protein level ratio in blood,rs74499711,,,?,,,,0.0,NR,,,,,,,
-GWAS Catalog API,,growth-regulated alpha protein measurement,rs11574450,,,A,,,,0.0,0.95,0.1155416,Primary,snv,A>C,intron_variant,,
+GWAS Catalog API,,growth-regulated alpha protein measurement,rs11574450,4,73981394,A,,,,0.0,0.95,0.1155416,Primary,snv,A>C,intron_variant,,inside_PF4
 GWAS Catalog API,,CXCL1 measurement,rs2367442,,,?,,,,4e-232,0.2187,,,,,,,
 GWAS Catalog API,,growth-regulated alpha protein measurement,rs614822,,,A,,,,1e-101,0.88635332,,,,,,,
 GWAS Catalog API,,growth-regulated alpha protein measurement,rs138657097,,,A,,,,8.999999999999999e-39,0.00171965,,,,,,,
 GWAS Catalog API,,serum albumin amount,rs184650103,,,T,,,,1e-36,0.01,,,,,,,
 GWAS Catalog API,,C-X-C motif chemokine 6 level,rs140407406,,,T,,,,3e-35,0.01318306,,,,,,,
-GWAS Catalog API,,platelet factor 4 level,rs11574450,,,C,,,,1.0000000000000001e-28,0.04718715,0.1155416,Primary,snv,A>C,intron_variant,,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,7.999999999999999e-26,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,annexin A6 measurement,rs3756074,,,C,,,,1.0000000000000001e-24,0.05,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,9.000000000000001e-23,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs11574452,,,A,,,,1e-22,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,biglycan measurement,rs3756074,,,C,,,,2e-22,0.0501843,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,1e-21,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,1e-21,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
+GWAS Catalog API,,platelet factor 4 level,rs11574450,4,73981394,C,,,,1.0000000000000001e-28,0.04718715,0.1155416,Primary,snv,A>C,intron_variant,,inside_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,7.999999999999999e-26,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,annexin A6 measurement,rs3756074,4,73982348,C,,,,1.0000000000000001e-24,0.05,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,9.000000000000001e-23,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs11574452,4,73980944,A,,,,1e-22,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,biglycan measurement,rs3756074,4,73982348,C,,,,2e-22,0.0501843,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,1e-21,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,1e-21,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
 GWAS Catalog API,,growth-regulated alpha protein measurement,rs115869035,,,G,,,,1e-20,0.01642054,,,,,,,
 GWAS Catalog API,,growth-regulated alpha protein measurement,rs569108954,,,A,,,,5.999999999999999e-20,0.0011465,,,,,,,
-GWAS Catalog API,,chymotrypsin-C measurement,rs3756074,,,C,,,,5.999999999999999e-20,0.05,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs11574452,,,A,,,,2e-19,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,blood protein amount,rs11574452,,,A,,,,5e-19,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,Gastrin-releasing peptide measurement,rs3756074,,,C,,,,6e-19,0.05,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
+GWAS Catalog API,,chymotrypsin-C measurement,rs3756074,4,73982348,C,,,,5.999999999999999e-20,0.05,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs11574452,4,73980944,A,,,,2e-19,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,blood protein amount,rs11574452,4,73980944,A,,,,5e-19,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,Gastrin-releasing peptide measurement,rs3756074,4,73982348,C,,,,6e-19,0.05,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
 GWAS Catalog API,,C-X-C motif chemokine 6 level,rs79371536,,,A,,,,6.999999999999999e-19,0.0122367,,,,,,,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,4e-18,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,4e-18,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
 GWAS Catalog API,,growth-regulated alpha protein measurement,rs75971653,,,C,,,,4e-18,0.0353607,,,,,,,
-GWAS Catalog API,,blood protein amount,rs11574452,,,A,,,,5e-18,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
+GWAS Catalog API,,blood protein amount,rs11574452,4,73980944,A,,,,5e-18,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
 GWAS Catalog API,,growth-regulated alpha protein measurement,rs75050408,,,C,,,,6.0000000000000004e-18,0.01199627,,,,,,,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,6.0000000000000004e-18,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,protein measurement,rs11574452,,,A,,,,7e-18,0.04,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,6.0000000000000004e-18,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,protein measurement,rs11574452,4,73980944,A,,,,7e-18,0.04,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
 GWAS Catalog API,,growth-regulated alpha protein measurement,rs351996,,,A,,,,5.000000000000001e-17,0.0792434,,,,,,,
-GWAS Catalog API,,protein measurement,rs3756074,,,C,,,,1e-16,0.05,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,interferon alpha-4 measurement,rs11574452,,,A,,,,2e-16,0.04,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,3e-16,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs11574452,,,A,,,,4e-16,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,72 kDa inositol polyphosphate 5-phosphatase measurement,rs3756074,,,C,,,,1e-15,0.05,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs11574452,,,A,,,,1e-15,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,2e-15,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,2e-15,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,2e-15,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,2e-15,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
+GWAS Catalog API,,protein measurement,rs3756074,4,73982348,C,,,,1e-16,0.05,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,interferon alpha-4 measurement,rs11574452,4,73980944,A,,,,2e-16,0.04,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,3e-16,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs11574452,4,73980944,A,,,,4e-16,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,72 kDa inositol polyphosphate 5-phosphatase measurement,rs3756074,4,73982348,C,,,,1e-15,0.05,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs11574452,4,73980944,A,,,,1e-15,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,2e-15,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,2e-15,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,2e-15,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,2e-15,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
 GWAS Catalog API,,growth-regulated alpha protein measurement,rs442155,,,G,,,,2e-15,0.118609,,,,,,,
-GWAS Catalog API,,blood protein amount,rs11574452,,,A,,,,3.0000000000000002e-15,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,4e-15,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,5.000000000000001e-15,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,5.000000000000001e-15,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,protein measurement,rs11574452,,,A,,,,7e-15,0.04,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,blood protein amount,rs11574452,,,A,,,,7e-15,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,9.000000000000001e-15,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,t-cell receptor-associated transmembrane adapter 1 measurement,rs11574452,,,A,,,,1e-14,0.04,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,beta-defensin 119 measurement,rs11574452,,,A,,,,1e-14,0.04,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
+GWAS Catalog API,,blood protein amount,rs11574452,4,73980944,A,,,,3.0000000000000002e-15,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,4e-15,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,5.000000000000001e-15,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,5.000000000000001e-15,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,protein measurement,rs11574452,4,73980944,A,,,,7e-15,0.04,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,blood protein amount,rs11574452,4,73980944,A,,,,7e-15,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,9.000000000000001e-15,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,t-cell receptor-associated transmembrane adapter 1 measurement,rs11574452,4,73980944,A,,,,1e-14,0.04,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,beta-defensin 119 measurement,rs11574452,4,73980944,A,,,,1e-14,0.04,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
 GWAS Catalog API,,growth-regulated alpha protein measurement,rs144714538,,,G,,,,1e-14,0.0025847,,,,,,,
-GWAS Catalog API,,histone-lysine N-methyltransferase SETD2 measurement,rs3756074,,,C,,,,2e-14,0.05,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,serum metabolite level,rs11574452,,,?,,,,2e-14,NR,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,blood protein amount,rs11574452,,,A,,,,2e-14,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,2e-14,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs11574452,,,A,,,,7e-14,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
+GWAS Catalog API,,histone-lysine N-methyltransferase SETD2 measurement,rs3756074,4,73982348,C,,,,2e-14,0.05,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,serum metabolite level,rs11574452,4,73980944,?,,,,2e-14,NR,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,blood protein amount,rs11574452,4,73980944,A,,,,2e-14,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,2e-14,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs11574452,4,73980944,A,,,,7e-14,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
 GWAS Catalog API,,leucine-rich repeat-containing protein 4B measurement,rs34989669,,,?,,,,7e-14,0.05,,,,,,,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,8e-14,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,1e-13,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,bone morphogenetic protein 10 measurement,rs11574452,,,A,,,,1e-13,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,2e-13,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,protein measurement,rs3756074,,,C,,,,2e-13,0.05,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs11574452,,,A,,,,2e-13,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,blood protein amount,rs11574452,,,A,,,,2e-13,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,2e-13,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs11574452,,,A,,,,2e-13,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,blood protein amount,rs11574452,,,A,,,,3.000000000000001e-13,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,WAP four-disulfide core domain protein 13 measurement,rs11574452,,,A,,,,3.000000000000001e-13,0.04,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,blood protein amount,rs11574452,,,A,,,,3.000000000000001e-13,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,interleukin 7 measurement,rs3756074,,,C,,,,4e-13,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs11574452,,,A,,,,4e-13,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,4e-13,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,4e-13,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,CD5 measurement,rs11574452,,,A,,,,5e-13,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,5e-13,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,6.000000000000002e-13,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs11574452,,,A,,,,7e-13,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,blood protein amount,rs11574452,,,A,,,,7e-13,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,7e-13,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs11574452,,,A,,,,7e-13,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,blood protein amount,rs11574452,,,A,,,,1e-12,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,blood protein amount,rs11574452,,,A,,,,1e-12,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,1e-12,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,2e-12,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,8e-14,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,1e-13,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,bone morphogenetic protein 10 measurement,rs11574452,4,73980944,A,,,,1e-13,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,2e-13,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,protein measurement,rs3756074,4,73982348,C,,,,2e-13,0.05,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs11574452,4,73980944,A,,,,2e-13,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,blood protein amount,rs11574452,4,73980944,A,,,,2e-13,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,2e-13,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs11574452,4,73980944,A,,,,2e-13,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,blood protein amount,rs11574452,4,73980944,A,,,,3.000000000000001e-13,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,WAP four-disulfide core domain protein 13 measurement,rs11574452,4,73980944,A,,,,3.000000000000001e-13,0.04,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,blood protein amount,rs11574452,4,73980944,A,,,,3.000000000000001e-13,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,interleukin 7 measurement,rs3756074,4,73982348,C,,,,4e-13,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs11574452,4,73980944,A,,,,4e-13,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,4e-13,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,4e-13,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,CD5 measurement,rs11574452,4,73980944,A,,,,5e-13,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,5e-13,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,6.000000000000002e-13,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs11574452,4,73980944,A,,,,7e-13,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,blood protein amount,rs11574452,4,73980944,A,,,,7e-13,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,7e-13,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs11574452,4,73980944,A,,,,7e-13,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,blood protein amount,rs11574452,4,73980944,A,,,,1e-12,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,blood protein amount,rs11574452,4,73980944,A,,,,1e-12,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,1e-12,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,2e-12,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
 GWAS Catalog API,,blood protein amount,rs1435520,,,C,,,,2e-12,0.02891,,,,,,,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,2e-12,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,2e-12,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,2e-12,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,corticotropin amount,rs11574450,,,A,,,,3e-12,0.95,0.1155416,Primary,snv,A>C,intron_variant,,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,3e-12,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,3e-12,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,3e-12,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,3e-12,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,3e-12,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs11574452,,,A,,,,3e-12,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,blood protein amount,rs11574452,,,A,,,,4e-12,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,blood protein amount,rs11574452,,,A,,,,5e-12,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,6e-12,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,retinol dehydrogenase 16 measurement,rs3756074,,,C,,,,6e-12,0.05,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs3756074,,,C,,,,6e-12,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,tetratricopeptide repeat protein 17 measurement,rs3756074,,,C,,,,7e-12,0.05,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,
-GWAS Catalog API,,blood protein amount,rs11574452,,,A,,,,7e-12,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,protein measurement,rs11574452,,,A,,,,7e-12,0.04,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,2e-12,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,2e-12,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,2e-12,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,corticotropin amount,rs11574450,4,73981394,A,,,,3e-12,0.95,0.1155416,Primary,snv,A>C,intron_variant,,inside_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,3e-12,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,3e-12,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,3e-12,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,3e-12,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,3e-12,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs11574452,4,73980944,A,,,,3e-12,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,blood protein amount,rs11574452,4,73980944,A,,,,4e-12,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,blood protein amount,rs11574452,4,73980944,A,,,,5e-12,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,6e-12,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,retinol dehydrogenase 16 measurement,rs3756074,4,73982348,C,,,,6e-12,0.05,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs3756074,4,73982348,C,,,,6e-12,0.02714,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,tetratricopeptide repeat protein 17 measurement,rs3756074,4,73982348,C,,,,7e-12,0.05,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+GWAS Catalog API,,blood protein amount,rs11574452,4,73980944,A,,,,7e-12,0.02661,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,protein measurement,rs11574452,4,73980944,A,,,,7e-12,0.04,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
 GWAS Catalog API,,alpha-fetoprotein amount,rs143804116,,,A,,,,1e-11,0.01502925,,,,,,,
 GWAS Catalog API,,C-X-C motif chemokine 5 measurement,rs1156553,,,T,,,,4.999999999999999e-11,NR,,,,,,,
-GWAS Catalog API,,serum metabolite level,rs11574452,,,?,,,,2e-10,NR,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,
-GWAS Catalog API,,carotid artery thickness,rs73824586,,,T,,,,5e-06,0.977518,0.013817,Primary,snv,T>C,"upstream_transcript_variant,2KB_upstream_variant",,
+GWAS Catalog API,,serum metabolite level,rs11574452,4,73980944,?,,,,2e-10,NR,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+GWAS Catalog API,,carotid artery thickness,rs73824586,4,73982484,T,,,,5e-06,0.977518,0.013817,Primary,snv,T>C,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
 GWAS Catalog API,,glaucoma,rs144308811,,,C,,,,7e-06,0.0199,,,,,,,
-FinnGen,Coronary artery disease,Coronary artery disease,rs11574452,4.0,73980944.0,A,C,0.0536525,0.0188902,0.00450796,0.0352793,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
-FinnGen,Coronary artery disease,Coronary artery disease,rs11574450,4.0,73981394.0,C,A,0.0536562,0.018892,0.00450921,0.0352777,0.1155416,Primary,snv,A>C,intron_variant,,inside_PF4
-FinnGen,Coronary artery disease,Coronary artery disease,rs3756074,4.0,73982348.0,C,G,0.051283,0.0187104,0.00612745,0.0360384,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
-FinnGen,Coronary artery disease,Coronary artery disease,rs76333778,4.0,73982432.0,T,C,-0.289729,0.125482,0.0209479,0.000806725,0.004152,Primary,snv,C>T,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
-FinnGen,Coronary artery disease,Coronary artery disease,rs147843417,4.0,73980330.0,A,G,-0.288569,0.125346,0.0213255,0.000808884,0.00415,Primary,snv,G>A;G>T,"500B_downstream_variant,downstream_transcript_variant",,near_PF4
-FinnGen,Myocardial infarction,Myocardial infarction,rs553937127,4.0,73981981.0,G,C,0.608147,0.267334,0.0229145,0.00044547,0.0010379,Primary,snv,C>G;C>T,5_prime_UTR_variant,,inside_PF4
-CARDIoGRAMplusC4D,Coronary artery disease,Coronary artery disease,rs352007,4.0,73981575.0,C,G,0.032406,0.0149852,0.0305771,0.848973,0.1422597,Primary,snv,G>A;G>C;G>T,intron_variant,,inside_PF4
-CARDIoGRAMplusC4D,Coronary artery disease,Coronary artery disease,rs352007,4.0,73981575.0,C,G,0.032406,0.0149852,0.0305771,0.848973,0.1422597,Primary,snv,G>A;G>C;G>T,intron_variant,,inside_PF4
-FinnGen,Coronary artery disease,Coronary artery disease,rs747219092,4.0,73981494.0,A,G,0.441049,0.206318,0.0325402,0.000434259,9e-05,Below threshold,snv,G>A,"coding_sequence_variant,synonymous_variant",,inside_PF4
-FinnGen,Myocardial infarction,Myocardial infarction,rs73824587,4.0,73982527.0,C,T,-0.181594,0.0868495,0.0365359,0.00287807,0.015435,Primary,snv,T>C,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
-FinnGen,Myocardial infarction,Myocardial infarction,rs73824586,4.0,73982484.0,C,T,-0.181594,0.0868495,0.0365359,0.00287807,0.013817,Primary,snv,T>C,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
-CARDIoGRAMplusC4D,Coronary artery disease,Coronary artery disease,rs394408,4.0,73983635.0,C,T,0.031005,0.0151992,0.0413593,0.854411,0.141156,Primary,snv,T>A;T>C;T>G,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
-CARDIoGRAMplusC4D,Coronary artery disease,Coronary artery disease,rs394408,4.0,73983635.0,C,T,0.031005,0.0151992,0.0413593,0.854411,0.141156,Primary,snv,T>A;T>C;T>G,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
-FinnGen,Myocardial infarction,Myocardial infarction,rs11574450,4.0,73981394.0,C,A,0.0462679,0.0248733,0.0628652,0.0352223,0.1155416,Primary,snv,A>C,intron_variant,,inside_PF4
-FinnGen,Myocardial infarction,Myocardial infarction,rs11574452,4.0,73980944.0,A,C,0.0462676,0.0248748,0.0628825,0.0352219,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
-FinnGen,Myocardial infarction,Myocardial infarction,rs747219092,4.0,73981494.0,A,G,0.509852,0.285115,0.0737395,0.00043684,9e-05,Below threshold,snv,G>A,"coding_sequence_variant,synonymous_variant",,inside_PF4
-FinnGen,Myocardial infarction,Myocardial infarction,rs3756074,4.0,73982348.0,C,G,0.0428097,0.02464,0.0823152,0.0359837,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
-FinnGen,Heart failure,Heart failure,rs394408,4.0,73983635.0,C,T,-0.0227842,0.0131911,0.084126,0.892687,0.141156,Primary,snv,T>A;T>C;T>G,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
-FinnGen,Heart failure,Heart failure,rs352007,4.0,73981575.0,C,G,-0.0224161,0.0131973,0.0894067,0.892768,0.1422597,Primary,snv,G>A;G>C;G>T,intron_variant,,inside_PF4
-FinnGen,Coronary artery disease,Coronary artery disease,rs10579199,4.0,73983385.0,A,AACAC,-0.0166785,0.00999288,0.0951108,0.853159,0.0,Below threshold,delins,ACACACACACACACACACACACACACA>ACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACACACACACACA,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
-FinnGen,Myocardial infarction,Myocardial infarction,rs780071012,4.0,73980754.0,G,A,0.194212,0.120528,0.107104,0.0015978,0.0,Below threshold,snv,A>G,"500B_downstream_variant,downstream_transcript_variant",,near_PF4
-FinnGen,Coronary artery disease,Coronary artery disease,rs780071012,4.0,73980754.0,G,A,0.15187,0.0943476,0.107466,0.00157119,0.0,Below threshold,snv,A>G,"500B_downstream_variant,downstream_transcript_variant",,near_PF4
-FinnGen,Coronary artery disease,Coronary artery disease,rs553937127,4.0,73981981.0,G,C,0.323631,0.205254,0.114856,0.000445408,0.0010379,Primary,snv,C>G;C>T,5_prime_UTR_variant,,inside_PF4
-FinnGen,Coronary artery disease,Coronary artery disease,rs75985950,4.0,73983720.0,T,C,-0.0313016,0.0210922,0.137799,0.0299484,0.025428,Primary,snv,C>G;C>T,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
-FinnGen,Myocardial infarction,Myocardial infarction,rs75985950,4.0,73983720.0,T,C,-0.0405681,0.0273766,0.138381,0.0300981,0.025428,Primary,snv,C>G;C>T,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
-FinnGen,Myocardial infarction,Myocardial infarction,rs76333778,4.0,73982432.0,T,C,-0.231574,0.159676,0.146982,0.00081037,0.004152,Primary,snv,C>T,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
-FinnGen,Myocardial infarction,Myocardial infarction,rs147843417,4.0,73980330.0,A,G,-0.228309,0.159474,0.152249,0.000812581,0.00415,Primary,snv,G>A;G>T,"500B_downstream_variant,downstream_transcript_variant",,near_PF4
-FinnGen,Coronary artery disease,Coronary artery disease,rs73824586,4.0,73982484.0,C,T,-0.0910864,0.0672852,0.17582,0.00285798,0.013817,Primary,snv,T>C,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
-FinnGen,Coronary artery disease,Coronary artery disease,rs73824587,4.0,73982527.0,C,T,-0.0910864,0.0672852,0.17582,0.00285798,0.015435,Primary,snv,T>C,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
-FinnGen,Heart failure,Heart failure,rs747219092,4.0,73981494.0,A,G,-0.313345,0.253358,0.216173,0.000434259,9e-05,Below threshold,snv,G>A,"coding_sequence_variant,synonymous_variant",,inside_PF4
-FinnGen,Heart failure,Heart failure,rs188770400,4.0,73980469.0,A,G,-0.188439,0.15483,0.223578,0.000635836,0.000162,Secondary,snv,G>A;G>T,"downstream_transcript_variant,500B_downstream_variant",,near_PF4
-CARDIoGRAMplusC4D,Coronary artery disease,Coronary artery disease,rs73824587,4.0,73982527.0,C,T,0.056318,0.0497581,0.257703,0.0109209999999999,0.015435,Primary,snv,T>C,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
-CARDIoGRAMplusC4D,Coronary artery disease,Coronary artery disease,rs73824586,4.0,73982484.0,C,T,0.056265,0.049757,0.2581408,0.0109209999999999,0.013817,Primary,snv,T>C,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
-FinnGen,Heart failure,Heart failure,rs3756074,4.0,73982348.0,C,G,-0.0236293,0.0219045,0.280704,0.0360384,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
-FinnGen,Myocardial infarction,Myocardial infarction,rs1331298489,4.0,73983407.0,C,CACACAT,-0.351628,0.344378,0.30723,0.000507704,0.001939,Primary,delins,ACACATA>A,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
-FinnGen,Myocardial infarction,Myocardial infarction,rs10579199,4.0,73983385.0,A,AACAC,-0.0122911,0.0130333,0.345656,0.853484,0.0,Below threshold,delins,ACACACACACACACACACACACACACA>ACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACACACACACACA,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
-FinnGen,Heart failure,Heart failure,rs10579199,4.0,73983385.0,A,AACAC,-0.0106763,0.0116023,0.357474,0.853159,0.0,Below threshold,delins,ACACACACACACACACACACACACACA>ACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACACACACACACA,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
-FinnGen,Heart failure,Heart failure,rs11574452,4.0,73980944.0,A,C,-0.0193488,0.0221313,0.38197,0.0352793,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
-FinnGen,Heart failure,Heart failure,rs11574450,4.0,73981394.0,C,A,-0.0189307,0.0221345,0.392408,0.0352777,0.1155416,Primary,snv,A>C,intron_variant,,inside_PF4
-FinnGen,Heart failure,Heart failure,rs553937127,4.0,73981981.0,G,C,0.200361,0.237017,0.397917,0.000445408,0.0010379,Primary,snv,C>G;C>T,5_prime_UTR_variant,,inside_PF4
-FinnGen,Heart failure,Heart failure,rs73824586,4.0,73982484.0,C,T,-0.0609512,0.0785163,0.43758,0.00285798,0.013817,Primary,snv,T>C,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
-FinnGen,Heart failure,Heart failure,rs73824587,4.0,73982527.0,C,T,-0.0609512,0.0785163,0.43758,0.00285798,0.015435,Primary,snv,T>C,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
-FinnGen,Coronary artery disease,Coronary artery disease,rs112860339,4.0,73982651.0,T,C,-0.0442197,0.058455,0.449365,0.00396451,0.007006,Primary,snv,C>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
-FinnGen,Myocardial infarction,Myocardial infarction,rs188770400,4.0,73980469.0,A,G,-0.129462,0.173885,0.456559,0.000649873,0.000162,Secondary,snv,G>A;G>T,"downstream_transcript_variant,500B_downstream_variant",,near_PF4
-FinnGen,Heart failure,Heart failure,rs1352381589,4.0,73983200.0,T,A,0.196126,0.275835,0.477068,0.000220705,0.0,Below threshold,snv,A>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
-FinnGen,Heart failure,Heart failure,rs1358465190,4.0,73981624.0,A,C,0.101027,0.143834,0.482439,0.000918682,0.0,Below threshold,snv,C>A,intron_variant,,inside_PF4
-HERMES,Heart failure,Heart failure,rs3756074,4.0,74848065.0,c,g,-0.0156,0.0235,0.5076,0.0398,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
-FinnGen,Myocardial infarction,Myocardial infarction,rs1358465190,4.0,73981624.0,A,C,0.0996073,0.154994,0.52045,0.000924251,0.0,Below threshold,snv,C>A,intron_variant,,inside_PF4
-HERMES,Heart failure,Heart failure,rs11574450,4.0,74847111.0,a,c,0.0147,0.0236,0.5315,0.9607,0.1155416,Primary,snv,A>C,intron_variant,,inside_PF4
-FinnGen,Heart failure,Heart failure,rs147843417,4.0,73980330.0,A,G,-0.0836507,0.143888,0.560999,0.000808884,0.00415,Primary,snv,G>A;G>T,"500B_downstream_variant,downstream_transcript_variant",,near_PF4
-FinnGen,Heart failure,Heart failure,rs76333778,4.0,73982432.0,T,C,-0.0833555,0.144034,0.562779,0.000806725,0.004152,Primary,snv,C>T,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
-FinnGen,Myocardial infarction,Myocardial infarction,rs112860339,4.0,73982651.0,T,C,-0.042849,0.0753421,0.569542,0.0040048,0.007006,Primary,snv,C>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
-HERMES,Heart failure,Heart failure,rs11574452,4.0,74846661.0,a,c,-0.0121,0.0241,0.6149,0.0385,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
-FinnGen,Coronary artery disease,Coronary artery disease,rs1358465190,4.0,73981624.0,A,C,0.0500147,0.120603,0.678357,0.000918682,0.0,Below threshold,snv,C>A,intron_variant,,inside_PF4
-FinnGen,Myocardial infarction,Myocardial infarction,rs1352381589,4.0,73983200.0,T,A,-0.132977,0.32255,0.680144,0.000220454,0.0,Below threshold,snv,A>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
-FinnGen,Coronary artery disease,Coronary artery disease,rs188770400,4.0,73980469.0,A,G,-0.0517717,0.139328,0.710204,0.000635836,0.000162,Secondary,snv,G>A;G>T,"downstream_transcript_variant,500B_downstream_variant",,near_PF4
-HERMES,Heart failure,Heart failure,rs394408,4.0,74849352.0,t,c,0.005,0.0135,0.7106,0.1199,0.141156,Primary,snv,T>A;T>C;T>G,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
-FinnGen,Coronary artery disease,Coronary artery disease,rs1352381589,4.0,73983200.0,T,A,-0.0897681,0.247394,0.716713,0.000220705,0.0,Below threshold,snv,A>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
-FinnGen,Heart failure,Heart failure,rs541678850,4.0,73982616.0,A,AG,0.0173164,0.0489297,0.723411,0.00692832,0.001038,Primary,delins,GG>G,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
-FinnGen,Coronary artery disease,Coronary artery disease,rs352007,4.0,73981575.0,C,G,-0.00396046,0.011366,0.727505,0.892768,0.1422597,Primary,snv,G>A;G>C;G>T,intron_variant,,inside_PF4
-FinnGen,Coronary artery disease,Coronary artery disease,rs394408,4.0,73983635.0,C,T,-0.00393152,0.0113608,0.729298,0.892687,0.141156,Primary,snv,T>A;T>C;T>G,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
-FinnGen,Coronary artery disease,Coronary artery disease,rs1331298489,4.0,73983407.0,C,CACACAT,-0.082567,0.251757,0.742939,0.000511405,0.001939,Primary,delins,ACACATA>A,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
-FinnGen,Heart failure,Heart failure,rs112860339,4.0,73982651.0,T,C,-0.0212784,0.0676764,0.753206,0.00396451,0.007006,Primary,snv,C>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
-FinnGen,Myocardial infarction,Myocardial infarction,rs394408,4.0,73983635.0,C,T,-0.00465578,0.0148179,0.753369,0.89297,0.141156,Primary,snv,T>A;T>C;T>G,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
-FinnGen,Myocardial infarction,Myocardial infarction,rs352007,4.0,73981575.0,C,G,-0.0044697,0.0148238,0.763017,0.893047,0.1422597,Primary,snv,G>A;G>C;G>T,intron_variant,,inside_PF4
-FinnGen,Myocardial infarction,Myocardial infarction,rs541678850,4.0,73982616.0,A,AG,0.0154386,0.0557634,0.781889,0.00687435,0.001038,Primary,delins,GG>G,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
-HERMES,Heart failure,Heart failure,rs352007,4.0,74847292.0,c,g,-0.0036,0.0134,0.7903,0.8773,0.1422597,Primary,snv,G>A;G>C;G>T,intron_variant,,inside_PF4
-FinnGen,Heart failure,Heart failure,rs1331298489,4.0,73983407.0,C,CACACAT,0.0600534,0.294682,0.838517,0.000511405,0.001939,Primary,delins,ACACATA>A,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
-CARDIoGRAMplusC4D,Coronary artery disease,Coronary artery disease,rs11574450,4.0,73981394.0,C,A,-0.003529,0.0211933,0.8677517,0.049517,0.1155416,Primary,snv,A>C,intron_variant,,inside_PF4
-CARDIoGRAMplusC4D,Coronary artery disease,Coronary artery disease,rs3756074,4.0,73982348.0,C,G,-0.002933,0.0211889,0.8899075,0.0496569999999999,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
-CARDIoGRAMplusC4D,Coronary artery disease,Coronary artery disease,rs11574452,4.0,73980944.0,A,C,-0.002729,0.0213627,0.8983502,0.0481449999999999,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
-CARDIoGRAMplusC4D,Coronary artery disease,Coronary artery disease,rs11574452,4.0,73980944.0,A,C,-0.002729,0.0213627,0.8983502,0.0481449999999999,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
-FinnGen,Coronary artery disease,Coronary artery disease,rs541678850,4.0,73982616.0,A,AG,0.0051571,0.0424724,0.903357,0.00692832,0.001038,Primary,delins,GG>G,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
-CARDIoGRAMplusC4D,Coronary artery disease,Coronary artery disease,rs75985950,4.0,73983720.0,T,C,-0.005638,0.048335,0.907142,0.027228,0.025428,Primary,snv,C>G;C>T,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
-FinnGen,Heart failure,Heart failure,rs780071012,4.0,73980754.0,G,A,0.0120604,0.105579,0.909055,0.00157119,0.0,Below threshold,snv,A>G,"500B_downstream_variant,downstream_transcript_variant",,near_PF4
-FinnGen,Heart failure,Heart failure,rs75985950,4.0,73983720.0,T,C,0.0022812,0.0241739,0.924818,0.0299484,0.025428,Primary,snv,C>G;C>T,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
+FinnGen,Coronary artery disease,Coronary artery disease,rs11574452,4,73980944,A,C,0.0536525,0.0188902,0.00450796,0.0352793,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+FinnGen,Coronary artery disease,Coronary artery disease,rs11574450,4,73981394,C,A,0.0536562,0.018892,0.00450921,0.0352777,0.1155416,Primary,snv,A>C,intron_variant,,inside_PF4
+FinnGen,Coronary artery disease,Coronary artery disease,rs3756074,4,73982348,C,G,0.051283,0.0187104,0.00612745,0.0360384,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+FinnGen,Coronary artery disease,Coronary artery disease,rs76333778,4,73982432,T,C,-0.289729,0.125482,0.0209479,0.000806725,0.004152,Primary,snv,C>T,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
+FinnGen,Coronary artery disease,Coronary artery disease,rs147843417,4,73980330,A,G,-0.288569,0.125346,0.0213255,0.000808884,0.00415,Primary,snv,G>A;G>T,"500B_downstream_variant,downstream_transcript_variant",,near_PF4
+FinnGen,Myocardial infarction,Myocardial infarction,rs553937127,4,73981981,G,C,0.608147,0.267334,0.0229145,0.00044547,0.0010379,Primary,snv,C>G;C>T,5_prime_UTR_variant,,inside_PF4
+CARDIoGRAMplusC4D,Coronary artery disease,Coronary artery disease,rs352007,4,73981575,C,G,0.032406,0.0149852,0.0305771,0.848973,0.1422597,Primary,snv,G>A;G>C;G>T,intron_variant,,inside_PF4
+CARDIoGRAMplusC4D,Coronary artery disease,Coronary artery disease,rs352007,4,73981575,C,G,0.032406,0.0149852,0.0305771,0.848973,0.1422597,Primary,snv,G>A;G>C;G>T,intron_variant,,inside_PF4
+FinnGen,Coronary artery disease,Coronary artery disease,rs747219092,4,73981494,A,G,0.441049,0.206318,0.0325402,0.000434259,9e-05,Below threshold,snv,G>A,"coding_sequence_variant,synonymous_variant",,inside_PF4
+FinnGen,Myocardial infarction,Myocardial infarction,rs73824587,4,73982527,C,T,-0.181594,0.0868495,0.0365359,0.00287807,0.015435,Primary,snv,T>C,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
+FinnGen,Myocardial infarction,Myocardial infarction,rs73824586,4,73982484,C,T,-0.181594,0.0868495,0.0365359,0.00287807,0.013817,Primary,snv,T>C,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
+CARDIoGRAMplusC4D,Coronary artery disease,Coronary artery disease,rs394408,4,73983635,C,T,0.031005,0.0151992,0.0413593,0.854411,0.141156,Primary,snv,T>A;T>C;T>G,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+CARDIoGRAMplusC4D,Coronary artery disease,Coronary artery disease,rs394408,4,73983635,C,T,0.031005,0.0151992,0.0413593,0.854411,0.141156,Primary,snv,T>A;T>C;T>G,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+FinnGen,Myocardial infarction,Myocardial infarction,rs11574450,4,73981394,C,A,0.0462679,0.0248733,0.0628652,0.0352223,0.1155416,Primary,snv,A>C,intron_variant,,inside_PF4
+FinnGen,Myocardial infarction,Myocardial infarction,rs11574452,4,73980944,A,C,0.0462676,0.0248748,0.0628825,0.0352219,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+FinnGen,Myocardial infarction,Myocardial infarction,rs747219092,4,73981494,A,G,0.509852,0.285115,0.0737395,0.00043684,9e-05,Below threshold,snv,G>A,"coding_sequence_variant,synonymous_variant",,inside_PF4
+FinnGen,Myocardial infarction,Myocardial infarction,rs3756074,4,73982348,C,G,0.0428097,0.02464,0.0823152,0.0359837,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+FinnGen,Heart failure,Heart failure,rs394408,4,73983635,C,T,-0.0227842,0.0131911,0.084126,0.892687,0.141156,Primary,snv,T>A;T>C;T>G,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+FinnGen,Heart failure,Heart failure,rs352007,4,73981575,C,G,-0.0224161,0.0131973,0.0894067,0.892768,0.1422597,Primary,snv,G>A;G>C;G>T,intron_variant,,inside_PF4
+FinnGen,Coronary artery disease,Coronary artery disease,rs10579199,4,73983385,A,AACAC,-0.0166785,0.00999288,0.0951108,0.853159,0.0,Below threshold,delins,ACACACACACACACACACACACACACA>ACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACACACACACACA,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+FinnGen,Myocardial infarction,Myocardial infarction,rs780071012,4,73980754,G,A,0.194212,0.120528,0.107104,0.0015978,0.0,Below threshold,snv,A>G,"500B_downstream_variant,downstream_transcript_variant",,near_PF4
+FinnGen,Coronary artery disease,Coronary artery disease,rs780071012,4,73980754,G,A,0.15187,0.0943476,0.107466,0.00157119,0.0,Below threshold,snv,A>G,"500B_downstream_variant,downstream_transcript_variant",,near_PF4
+FinnGen,Coronary artery disease,Coronary artery disease,rs553937127,4,73981981,G,C,0.323631,0.205254,0.114856,0.000445408,0.0010379,Primary,snv,C>G;C>T,5_prime_UTR_variant,,inside_PF4
+FinnGen,Coronary artery disease,Coronary artery disease,rs75985950,4,73983720,T,C,-0.0313016,0.0210922,0.137799,0.0299484,0.025428,Primary,snv,C>G;C>T,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
+FinnGen,Myocardial infarction,Myocardial infarction,rs75985950,4,73983720,T,C,-0.0405681,0.0273766,0.138381,0.0300981,0.025428,Primary,snv,C>G;C>T,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
+FinnGen,Myocardial infarction,Myocardial infarction,rs76333778,4,73982432,T,C,-0.231574,0.159676,0.146982,0.00081037,0.004152,Primary,snv,C>T,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
+FinnGen,Myocardial infarction,Myocardial infarction,rs147843417,4,73980330,A,G,-0.228309,0.159474,0.152249,0.000812581,0.00415,Primary,snv,G>A;G>T,"500B_downstream_variant,downstream_transcript_variant",,near_PF4
+FinnGen,Coronary artery disease,Coronary artery disease,rs73824586,4,73982484,C,T,-0.0910864,0.0672852,0.17582,0.00285798,0.013817,Primary,snv,T>C,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
+FinnGen,Coronary artery disease,Coronary artery disease,rs73824587,4,73982527,C,T,-0.0910864,0.0672852,0.17582,0.00285798,0.015435,Primary,snv,T>C,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
+FinnGen,Heart failure,Heart failure,rs747219092,4,73981494,A,G,-0.313345,0.253358,0.216173,0.000434259,9e-05,Below threshold,snv,G>A,"coding_sequence_variant,synonymous_variant",,inside_PF4
+FinnGen,Heart failure,Heart failure,rs188770400,4,73980469,A,G,-0.188439,0.15483,0.223578,0.000635836,0.000162,Secondary,snv,G>A;G>T,"downstream_transcript_variant,500B_downstream_variant",,near_PF4
+CARDIoGRAMplusC4D,Coronary artery disease,Coronary artery disease,rs73824587,4,73982527,C,T,0.056318,0.0497581,0.257703,0.0109209999999999,0.015435,Primary,snv,T>C,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
+CARDIoGRAMplusC4D,Coronary artery disease,Coronary artery disease,rs73824586,4,73982484,C,T,0.056265,0.049757,0.2581408,0.0109209999999999,0.013817,Primary,snv,T>C,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
+FinnGen,Heart failure,Heart failure,rs3756074,4,73982348,C,G,-0.0236293,0.0219045,0.280704,0.0360384,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+FinnGen,Myocardial infarction,Myocardial infarction,rs1331298489,4,73983407,C,CACACAT,-0.351628,0.344378,0.30723,0.000507704,0.001939,Primary,delins,ACACATA>A,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
+FinnGen,Myocardial infarction,Myocardial infarction,rs10579199,4,73983385,A,AACAC,-0.0122911,0.0130333,0.345656,0.853484,0.0,Below threshold,delins,ACACACACACACACACACACACACACA>ACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACACACACACACA,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+FinnGen,Heart failure,Heart failure,rs10579199,4,73983385,A,AACAC,-0.0106763,0.0116023,0.357474,0.853159,0.0,Below threshold,delins,ACACACACACACACACACACACACACA>ACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACACACACACA;ACACACACACACACACACACACACACA>ACACACACACACACACACACACACACACACACA,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+FinnGen,Heart failure,Heart failure,rs11574452,4,73980944,A,C,-0.0193488,0.0221313,0.38197,0.0352793,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+FinnGen,Heart failure,Heart failure,rs11574450,4,73981394,C,A,-0.0189307,0.0221345,0.392408,0.0352777,0.1155416,Primary,snv,A>C,intron_variant,,inside_PF4
+FinnGen,Heart failure,Heart failure,rs553937127,4,73981981,G,C,0.200361,0.237017,0.397917,0.000445408,0.0010379,Primary,snv,C>G;C>T,5_prime_UTR_variant,,inside_PF4
+FinnGen,Heart failure,Heart failure,rs73824586,4,73982484,C,T,-0.0609512,0.0785163,0.43758,0.00285798,0.013817,Primary,snv,T>C,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
+FinnGen,Heart failure,Heart failure,rs73824587,4,73982527,C,T,-0.0609512,0.0785163,0.43758,0.00285798,0.015435,Primary,snv,T>C,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
+FinnGen,Coronary artery disease,Coronary artery disease,rs112860339,4,73982651,T,C,-0.0442197,0.058455,0.449365,0.00396451,0.007006,Primary,snv,C>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+FinnGen,Myocardial infarction,Myocardial infarction,rs188770400,4,73980469,A,G,-0.129462,0.173885,0.456559,0.000649873,0.000162,Secondary,snv,G>A;G>T,"downstream_transcript_variant,500B_downstream_variant",,near_PF4
+FinnGen,Heart failure,Heart failure,rs1352381589,4,73983200,T,A,0.196126,0.275835,0.477068,0.000220705,0.0,Below threshold,snv,A>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+FinnGen,Heart failure,Heart failure,rs1358465190,4,73981624,A,C,0.101027,0.143834,0.482439,0.000918682,0.0,Below threshold,snv,C>A,intron_variant,,inside_PF4
+HERMES,Heart failure,Heart failure,rs3756074,4,74848065,c,g,-0.0156,0.0235,0.5076,0.0398,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+FinnGen,Myocardial infarction,Myocardial infarction,rs1358465190,4,73981624,A,C,0.0996073,0.154994,0.52045,0.000924251,0.0,Below threshold,snv,C>A,intron_variant,,inside_PF4
+HERMES,Heart failure,Heart failure,rs11574450,4,74847111,a,c,0.0147,0.0236,0.5315,0.9607,0.1155416,Primary,snv,A>C,intron_variant,,inside_PF4
+FinnGen,Heart failure,Heart failure,rs147843417,4,73980330,A,G,-0.0836507,0.143888,0.560999,0.000808884,0.00415,Primary,snv,G>A;G>T,"500B_downstream_variant,downstream_transcript_variant",,near_PF4
+FinnGen,Heart failure,Heart failure,rs76333778,4,73982432,T,C,-0.0833555,0.144034,0.562779,0.000806725,0.004152,Primary,snv,C>T,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
+FinnGen,Myocardial infarction,Myocardial infarction,rs112860339,4,73982651,T,C,-0.042849,0.0753421,0.569542,0.0040048,0.007006,Primary,snv,C>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+HERMES,Heart failure,Heart failure,rs11574452,4,74846661,a,c,-0.0121,0.0241,0.6149,0.0385,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+FinnGen,Coronary artery disease,Coronary artery disease,rs1358465190,4,73981624,A,C,0.0500147,0.120603,0.678357,0.000918682,0.0,Below threshold,snv,C>A,intron_variant,,inside_PF4
+FinnGen,Myocardial infarction,Myocardial infarction,rs1352381589,4,73983200,T,A,-0.132977,0.32255,0.680144,0.000220454,0.0,Below threshold,snv,A>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+FinnGen,Coronary artery disease,Coronary artery disease,rs188770400,4,73980469,A,G,-0.0517717,0.139328,0.710204,0.000635836,0.000162,Secondary,snv,G>A;G>T,"downstream_transcript_variant,500B_downstream_variant",,near_PF4
+HERMES,Heart failure,Heart failure,rs394408,4,74849352,t,c,0.005,0.0135,0.7106,0.1199,0.141156,Primary,snv,T>A;T>C;T>G,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+FinnGen,Coronary artery disease,Coronary artery disease,rs1352381589,4,73983200,T,A,-0.0897681,0.247394,0.716713,0.000220705,0.0,Below threshold,snv,A>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+FinnGen,Heart failure,Heart failure,rs541678850,4,73982616,A,AG,0.0173164,0.0489297,0.723411,0.00692832,0.001038,Primary,delins,GG>G,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+FinnGen,Coronary artery disease,Coronary artery disease,rs352007,4,73981575,C,G,-0.00396046,0.011366,0.727505,0.892768,0.1422597,Primary,snv,G>A;G>C;G>T,intron_variant,,inside_PF4
+FinnGen,Coronary artery disease,Coronary artery disease,rs394408,4,73983635,C,T,-0.00393152,0.0113608,0.729298,0.892687,0.141156,Primary,snv,T>A;T>C;T>G,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+FinnGen,Coronary artery disease,Coronary artery disease,rs1331298489,4,73983407,C,CACACAT,-0.082567,0.251757,0.742939,0.000511405,0.001939,Primary,delins,ACACATA>A,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
+FinnGen,Heart failure,Heart failure,rs112860339,4,73982651,T,C,-0.0212784,0.0676764,0.753206,0.00396451,0.007006,Primary,snv,C>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+FinnGen,Myocardial infarction,Myocardial infarction,rs394408,4,73983635,C,T,-0.00465578,0.0148179,0.753369,0.89297,0.141156,Primary,snv,T>A;T>C;T>G,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+FinnGen,Myocardial infarction,Myocardial infarction,rs352007,4,73981575,C,G,-0.0044697,0.0148238,0.763017,0.893047,0.1422597,Primary,snv,G>A;G>C;G>T,intron_variant,,inside_PF4
+FinnGen,Myocardial infarction,Myocardial infarction,rs541678850,4,73982616,A,AG,0.0154386,0.0557634,0.781889,0.00687435,0.001038,Primary,delins,GG>G,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+HERMES,Heart failure,Heart failure,rs352007,4,74847292,c,g,-0.0036,0.0134,0.7903,0.8773,0.1422597,Primary,snv,G>A;G>C;G>T,intron_variant,,inside_PF4
+FinnGen,Heart failure,Heart failure,rs1331298489,4,73983407,C,CACACAT,0.0600534,0.294682,0.838517,0.000511405,0.001939,Primary,delins,ACACATA>A,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
+CARDIoGRAMplusC4D,Coronary artery disease,Coronary artery disease,rs11574450,4,73981394,C,A,-0.003529,0.0211933,0.8677517,0.049517,0.1155416,Primary,snv,A>C,intron_variant,,inside_PF4
+CARDIoGRAMplusC4D,Coronary artery disease,Coronary artery disease,rs3756074,4,73982348,C,G,-0.002933,0.0211889,0.8899075,0.0496569999999999,0.117814,Primary,snv,G>C;G>T,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+CARDIoGRAMplusC4D,Coronary artery disease,Coronary artery disease,rs11574452,4,73980944,A,C,-0.002729,0.0213627,0.8983502,0.0481449999999999,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+CARDIoGRAMplusC4D,Coronary artery disease,Coronary artery disease,rs11574452,4,73980944,A,C,-0.002729,0.0213627,0.8983502,0.0481449999999999,0.117362,Primary,snv,C>A,3_prime_UTR_variant,,inside_PF4
+FinnGen,Coronary artery disease,Coronary artery disease,rs541678850,4,73982616,A,AG,0.0051571,0.0424724,0.903357,0.00692832,0.001038,Primary,delins,GG>G,"2KB_upstream_variant,upstream_transcript_variant",,near_PF4
+CARDIoGRAMplusC4D,Coronary artery disease,Coronary artery disease,rs75985950,4,73983720,T,C,-0.005638,0.048335,0.907142,0.027228,0.025428,Primary,snv,C>G;C>T,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
+FinnGen,Heart failure,Heart failure,rs780071012,4,73980754,G,A,0.0120604,0.105579,0.909055,0.00157119,0.0,Below threshold,snv,A>G,"500B_downstream_variant,downstream_transcript_variant",,near_PF4
+FinnGen,Heart failure,Heart failure,rs75985950,4,73983720,T,C,0.0022812,0.0241739,0.924818,0.0299484,0.025428,Primary,snv,C>G;C>T,"upstream_transcript_variant,2KB_upstream_variant",,near_PF4
