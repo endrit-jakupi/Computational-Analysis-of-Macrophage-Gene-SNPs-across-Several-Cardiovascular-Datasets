@@ -1,0 +1,25 @@
+{
+    "total_rows": 2614,
+    "unique_rsIDs": 629,
+    "duplicate_rows_removed": 0,
+    "source_datasets": [
+        "GWAS Catalog",
+        "FinnGen",
+        "CARDIoGRAMplusC4D",
+        "HERMES"
+    ],
+    "phenotypes": [
+        "Coronary artery disease",
+        "Myocardial infarction",
+        "Heart failure"
+    ],
+    "rows_by_source_and_phenotype": {
+        "CARDIoGRAMplusC4D | Coronary artery disease": 192,
+        "CARDIoGRAMplusC4D | Myocardial infarction": 182,
+        "FinnGen | Coronary artery disease": 647,
+        "FinnGen | Heart failure": 647,
+        "FinnGen | Myocardial infarction": 647,
+        "GWAS Catalog | Unknown": 107,
+        "HERMES | Heart failure": 192
+    }
+}
