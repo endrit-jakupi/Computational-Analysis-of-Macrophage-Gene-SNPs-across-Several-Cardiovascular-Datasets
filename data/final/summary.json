@@ -1,6 +1,6 @@
 {
     "output_file": "../data/final/pf4_final.csv",
-    "total_rows": 183,
+    "total_rows": 159,
     "unique_rsIDs": 39,
     "source_datasets": [
         "GWAS Catalog API",
@@ -14,14 +14,14 @@
         "Heart failure"
     ],
     "rows_by_source_dataset": {
-        "GWAS Catalog API": 107,
+        "GWAS Catalog API": 86,
         "FinnGen": 60,
-        "CARDIoGRAMplusC4D": 11,
+        "CARDIoGRAMplusC4D": 8,
         "HERMES": 5
     },
     "rows_by_phenotype": {
-        "Unknown": 107,
-        "Coronary artery disease": 31,
+        "Unknown": 86,
+        "Coronary artery disease": 28,
         "Heart failure": 25,
         "Myocardial infarction": 20
     }
