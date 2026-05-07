@@ -2,7 +2,7 @@
     "source_dataset": "FinnGen R12 summary statistics",
     "region": "chr4:73930811-74032027",
     "region_assembly": "GRCh38",
-    "heart_failure": {
+    "hf": {
         "phenotype": "Heart failure",
         "finngen_endpoint": "I9_HEARTFAIL",
         "associations": 647,
