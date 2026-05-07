@@ -2,6 +2,7 @@
 data/raw/cardiogram_c4d/cardiogram_cad_harmonized.tsv
 data/raw/cardiogram_c4d/cardiogram_mi_harmonized.tsv
 data/raw/hermes/hermes_hf.tsv
+data/raw/hermes/hermes_hf_ukb.txt
 data/raw/finngen/finngen_hf.tsv
 data/raw/finngen/finngen_cad.tsv
 data/raw/finngen/finngen_mi.tsv
