@@ -26,7 +26,7 @@ mkdir -p data/raw/finngen
 
 Download the summary statistics (excluding UK Biobank samples) from [here](https://www.kp4cd.org/node/283) and place the file as:
 
-data/raw/hermes/heart_failure.tsv
+data/raw/hermes/hermes_hf.tsv
 
 ---
 
@@ -39,8 +39,8 @@ Download the harmonized GWAS summary statistics for:
 
 and place them as:
 
-data/raw/cardiogram_c4d/cad_harmonized.tsv.gz  
-data/raw/cardiogram_c4d/mi_harmonized.tsv.gz
+data/raw/cardiogram_c4d/cardiogram_cad_harmonized.tsv
+data/raw/cardiogram_c4d/cardiogram_mi_harmonized.tsv
 
 ---
 
@@ -56,6 +56,6 @@ Access the data from [here](https://www.finngen.fi/en/access_results) or downloa
 
 Place the files as:
 
-data/raw/finngen/heart_failure.tsv  
-data/raw/finngen/cad.tsv  
-data/raw/finngen/mi.tsv
+data/raw/finngen/finngen_hf.tsv  
+data/raw/finngen/finngen_cad.tsv  
+data/raw/finngen/finngen_mi.tsv
