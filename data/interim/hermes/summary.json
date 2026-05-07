@@ -1,8 +1,0 @@
-{
-    "source_dataset": "HERMES Heart Failure summary statistics without UK Biobank samples",
-    "phenotype": "Heart failure",
-    "region": "chr4:74796794-74897841",
-    "region_assembly": "GRCh37",
-    "associations": 192,
-    "unique_rsIDs": 192
-}
