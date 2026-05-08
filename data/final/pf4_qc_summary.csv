@@ -1,0 +1,16 @@
+qc_check,status,result
+Source dataset recorded for each row,Pass,All 2614 association rows have source_dataset recorded
+Genome build used by each dataset recorded,Pass,All 2614 association rows have genome_build recorded
+Coordinates recorded as original or lifted over,Pass,All 2614 association rows have coordinate handling recorded
+Availability of both GRCh37 and GRCh38 coordinates recorded,Pass,CARDIoGRAMplusC4D: No; FinnGen: No; GWAS Catalog: No; HERMES: No
+"rsIDs, alleles, and positions checked for availability and concordance",Review,114 rows missing rsID; 107 rows missing chromosome; 107 rows missing position; 0 rows missing effect_allele; 107 rows missing other_allele; 0 rsID-position conflicts within same build; 3 rsID-allele-pair conflicts within same build
+Effect allele and non-effect allele clearly defined,Review,"effect_allele: 2614/2614 available, 0 missing; other_allele: 2507/2614 available, 107 missing"
+"p-values, effect sizes, standard errors, allele frequencies, and sample sizes available",Pass with note,p_value: 2614/2614 rows available; 0/2614 rows missing; effect_size: 2507/2614 rows available; 107/2614 rows missing; standard_error: 2507/2614 rows available; 107/2614 rows missing; allele_frequency: 2610/2614 rows available; 4/2614 rows missing; sample_size: column not available
+p-values reported as zero checked,Review,2 rows with p_value = 0
+Same variant appearing multiple times across traits or datasets checked,Expected,612 rsIDs appear in more than one association row
+Fully duplicated rows checked,Pass,0 fully duplicated rows
+Missing allele frequencies classified as Unknown rather than automatically Below threshold,Review,520 variants missing MAX_freq; 0 classified as Unknown; 520 classified as Below threshold
+GWAS Catalog associations checked for direct cardiovascular traits or broader molecular/biomarker traits,Pass,0 direct cardiovascular GWAS Catalog rows; 107 broader or non-selected GWAS Catalog rows
+HERMES results checked as excluding or including UK Biobank,Pass,Main table contains 192 HERMES rows from the UKB-excluding version; separate UKB-including HERMES file found with 191 rows
+Potential sample overlap clearly flagged,Pass,HERMES: main table excludes UK Biobank; FinnGen: independent replication resource; CARDIoGRAMplusC4D: no UKB-specific flag; GWAS Catalog: not applicable
+Odds ratios available or derivable from effect size,Pass,2507 rows with effect_size; 2507 rows with odds_ratio; 0 rows with effect_size but missing odds_ratio; maximum OR difference from exp(effect_size): 4.98901378431782e-07
