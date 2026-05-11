@@ -59,3 +59,39 @@ Place the files as:
 data/raw/finngen/finngen_hf.tsv  
 data/raw/finngen/finngen_cad.tsv  
 data/raw/finngen/finngen_mi.tsv
+
+---
+
+## 5. Notebook Execution Order
+
+The main PF4 cardiovascular association analysis pipeline should be executed in the following order:
+
+1. `ensembl_region.ipynb`  
+   Retrieve the PF4 genomic coordinates and define the PF4 ±50 kb genomic region.
+
+2. `gwas_catalog.ipynb`  
+   Retrieve PF4-related SNP–trait associations from the GWAS Catalog API.
+
+3. `hermes.ipynb`  
+   Retrieve PF4-region associations from the HERMES HF summary statistics excluding UK Biobank samples.
+
+4. `hermes_ukb.ipynb` *(complementary analysis)*  
+   Retrieve PF4-region associations from the HERMES HF summary statistics including UK Biobank samples.
+
+5. `cardiogram_c4d.ipynb`  
+   Retrieve PF4-region associations from the CARDIoGRAMplusC4D CAD and MI datasets.
+
+6. `finngen_replication.ipynb`  
+   Perform independent replication analyses using FinnGen HF, CAD, and MI datasets.
+
+7. `results.ipynb`  
+   Combine the retrieved association results into the final `pf4_cardiovascular_associations.csv` table.
+
+---
+
+## 6. Complementary PF4 NCBI dbSNP Analysis
+
+The following notebook performs the complementary extraction and annotation of PF4 variants from NCBI dbSNP:
+
+1. `ncbi_variants.ipynb`  
+   Extract and annotate PF4-related variants together with frequency and positional annotations into the final `pf4_variants.csv` table.
