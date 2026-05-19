@@ -9,7 +9,7 @@ Effect allele and non-effect allele clearly defined,Final cardiovascular associa
 p-values reported as zero checked,Final cardiovascular associations,2 rows with p_value = 0
 Same variant appearing multiple times across traits or datasets checked,Final cardiovascular associations,612 rsIDs appear in more than one association row
 Fully duplicated rows checked,Final cardiovascular associations,0 fully duplicated rows
-Missing allele frequencies classified as Unknown rather than automatically Below threshold,NCBI/dbSNP variant annotation,520 variants missing MAX_freq; 0 classified as Unknown; 520 classified as Below threshold
+Missing allele frequencies classified as Unknown rather than automatically Below threshold,NCBI/dbSNP variant annotation,520 variants missing MAX_freq; 520 classified as Unknown; 0 classified as Below threshold
 GWAS Catalog associations checked for direct cardiovascular traits or broader molecular/biomarker traits,Final cardiovascular associations,0 direct cardiovascular GWAS Catalog rows; 107 broader or non-selected GWAS Catalog rows
 HERMES results checked as excluding or including UK Biobank,Final cardiovascular associations + HERMES including UK Biobank samples,Main table contains 192 HERMES rows from the UKB-excluding version; separate table contains 191 HERMES rows from the UKB-including version
 Potential sample overlap clearly flagged,Final cardiovascular associations,GWAS Catalog: Not applicable; HERMES: Main table excludes UK Biobank samples; CARDIoGRAMplusC4D: Not applicable; FinnGen: Not applicable
