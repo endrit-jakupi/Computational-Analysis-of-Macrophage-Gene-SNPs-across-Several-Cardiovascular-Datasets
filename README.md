@@ -86,8 +86,8 @@ The main PF4 cardiovascular association analysis pipeline should be executed in 
 6. `finngen_replication.ipynb`  
    Perform independent replication analyses using FinnGen HF, CAD, and MI datasets.
 
-7. `results.ipynb`  
-   Combine the retrieved association results into the final `pf4_cardiovascular_associations.csv` table.
+7. `association_results.ipynb`  
+   Combine the retrieved association results into the final `cardiovascular_associations.csv` table.
 
 ---
 
@@ -105,4 +105,4 @@ The following notebook performs the complementary extraction and annotation of P
 The following notebook generates a quality-control summary for the final PF4 cardiovascular association and variant datasets:
 
 1. `qc_summary.ipynb`  
-   Perform quality-control checks across the final association and variant tables and generate the final `pf4_qc_summary.csv` summary table.
+   Perform quality-control checks across the final association and variant tables and generate the final `qc_summary.csv` summary table.
