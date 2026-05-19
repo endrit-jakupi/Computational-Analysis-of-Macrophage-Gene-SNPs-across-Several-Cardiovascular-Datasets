@@ -64,6 +64,8 @@ data/raw/finngen/finngen_mi.tsv
 
 ## 5. Notebook Execution Order
 
+### Main PF4 Cardiovascular Association Analysis
+
 The main PF4 cardiovascular association analysis pipeline should be executed in the following order:
 
 1. `ensembl_region.ipynb`  
@@ -89,9 +91,18 @@ The main PF4 cardiovascular association analysis pipeline should be executed in 
 
 ---
 
-## 6. Complementary PF4 NCBI dbSNP Analysis
+### Complementary PF4 NCBI dbSNP Analysis
 
 The following notebook performs the complementary extraction and annotation of PF4 variants from NCBI dbSNP:
 
 1. `ncbi_variants.ipynb`  
    Extract and annotate PF4-related variants together with frequency and positional annotations into the final `pf4_variants.csv` table.
+
+---
+
+### Quality-Control Summary
+
+The following notebook generates a quality-control summary for the final PF4 cardiovascular association and variant datasets:
+
+1. `qc_summary.ipynb`  
+   Perform quality-control checks across the final association and variant tables and generate the final `pf4_qc_summary.csv` summary table.
