@@ -1,16 +1,14 @@
-qc_check,qc_source,result
-Source dataset recorded for each row,Final cardiovascular associations,All 2614 association rows have source_dataset recorded
-Genome build used by each dataset recorded,Final cardiovascular associations,GWAS Catalog: No coordinates reported; HERMES: GRCh37; CARDIoGRAMplusC4D: GRCh38; FinnGen: GRCh38
-Coordinates recorded as original or lifted over,Final cardiovascular associations,GWAS Catalog: Not available; HERMES: Original; CARDIoGRAMplusC4D: Harmonized; FinnGen: Original
-Availability of both GRCh37 and GRCh38 coordinates recorded,Final cardiovascular associations,GWAS Catalog: No; HERMES: No; CARDIoGRAMplusC4D: No; FinnGen: No
-"rsIDs, alleles, and positions checked for availability and concordance",Final cardiovascular associations,114 rows missing rsID; 107 rows missing chromosome; 107 rows missing position; 0 rows missing effect_allele; 107 rows missing other_allele; 0 rsID-position conflicts within same build; 3 rsID-allele-pair conflicts within same build
-Effect allele and non-effect allele clearly defined,Final cardiovascular associations,"effect_allele: 2614/2614 available, 0 missing; other_allele: 2507/2614 available, 107 missing"
-"p-values, effect sizes, standard errors, allele frequencies, and sample sizes available",Final cardiovascular associations,p_value: 2614/2614 rows available; 0/2614 rows missing; effect_size: 2507/2614 rows available; 107/2614 rows missing; standard_error: 2507/2614 rows available; 107/2614 rows missing; allele_frequency: 2610/2614 rows available; 4/2614 rows missing; sample_size: column not available
-p-values reported as zero checked,Final cardiovascular associations,2 rows with p_value = 0
-Same variant appearing multiple times across traits or datasets checked,Final cardiovascular associations,612 rsIDs appear in more than one association row
-Fully duplicated rows checked,Final cardiovascular associations,0 fully duplicated rows
-Missing allele frequencies classified as Unknown rather than automatically Below threshold,NCBI/dbSNP variant annotation,520 variants missing MAX_freq; 520 classified as Unknown; 0 classified as Below threshold
-GWAS Catalog associations checked for direct cardiovascular traits or broader molecular/biomarker traits,Final cardiovascular associations,0 direct cardiovascular GWAS Catalog rows; 107 broader or non-selected GWAS Catalog rows
-HERMES results checked as excluding or including UK Biobank,Final cardiovascular associations + HERMES including UK Biobank samples,Main table contains 192 HERMES rows from the UKB-excluding version; separate table contains 191 HERMES rows from the UKB-including version
-Potential sample overlap clearly flagged,Final cardiovascular associations,GWAS Catalog: Not applicable; HERMES: Main table excludes UK Biobank samples; CARDIoGRAMplusC4D: Not applicable; FinnGen: Not applicable
-Odds ratios available or derivable from effect size,Final cardiovascular associations,2507 rows with effect_size; 2507 rows with odds_ratio; 0 rows with effect_size but missing odds_ratio; maximum OR difference from exp(effect_size): 4.98901378431782e-07
+check,result
+Source dataset recorded for each row,All 235583 association rows have source_dataset recorded
+Genome build used by each dataset recorded,GWAS Catalog: No coordinates reported; HERMES: GRCh37; CARDIoGRAMplusC4D: GRCh38; FinnGen: GRCh38
+Coordinates recorded as original or lifted over,GWAS Catalog: Not available; HERMES: Original; CARDIoGRAMplusC4D: Harmonized; FinnGen: Original
+Availability of both GRCh37 and GRCh38 coordinates recorded,GWAS Catalog: No; HERMES: No; CARDIoGRAMplusC4D: No; FinnGen: No
+"rsIDs, alleles, and positions checked for availability and concordance",5117 rows missing rsID; 12319 rows missing chromosome; 12319 rows missing position; 0 rows missing effect_allele; 12319 rows missing other_allele; 0 rsID-position conflicts within same build; 282 rsID-allele-pair conflicts within same build
+Effect allele and non-effect allele clearly defined,"effect_allele: 235583/235583 available, 0 missing; other_allele: 223264/235583 available, 12319 missing"
+"p-values, effect sizes, standard errors, and allele frequencies available",p_value: 235583/235583 rows available; 0/235583 rows missing; effect_size: 223263/235583 rows available; 12320/235583 rows missing; standard_error: 223264/235583 rows available; 12319/235583 rows missing; allele_frequency: 230924/235583 rows available; 4659/235583 rows missing
+p-values reported as zero checked,453 rows with p_value = 0
+Same variant appearing multiple times across traits or datasets checked,49696 rsIDs appear in more than one association row
+Fully duplicated rows checked,0 fully duplicated rows
+GWAS Catalog associations checked for direct cardiovascular traits or broader molecular/biomarker traits,17 direct cardiovascular GWAS Catalog rows; 12302 broader or non-selected GWAS Catalog rows
+Potential sample overlap clearly flagged,GWAS Catalog: Not applicable; HERMES: Main table excludes UK Biobank samples; CARDIoGRAMplusC4D: Not applicable; FinnGen: Not applicable
+Odds ratios available or derivable from effect size,223263 rows with effect_size; 223264 rows with odds_ratio; 0 rows with effect_size but missing odds_ratio; maximum OR difference from exp(effect_size): 0.000001
