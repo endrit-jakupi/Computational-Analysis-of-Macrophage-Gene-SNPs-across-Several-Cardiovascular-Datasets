@@ -1,15 +1,15 @@
-# Computational Analysis of PF4 SNPs across Several Cardiovascular Datasets: A Comparative Study
+# Computational Analysis of Macrophage Gene SNPs across Several Cardiovascular Datasets: A Comparative Study
 
 ## Project Overview
 
-This project focuses on the computational analysis of genetic variants (SNPs) in and around the **PF4 gene** and their association with cardiovascular phenotypes such as heart failure, coronary artery disease, and myocardial infarction.
+This project focuses on the computational analysis of genetic variants (SNPs) in and around a set of macrophage-related genes and their association with cardiovascular phenotypes such as heart failure, coronary artery disease, and myocardial infarction.
 
 The goal is to build a reproducible data pipeline that:
-- identifies SNPs located in the PF4 genomic region,
+- identifies SNPs located in the queried gene regions,
 - retrieves their association statistics from large GWAS datasets,
 - and organizes the results into structured representations for downstream analysis.
 
-The pipeline integrates multiple public data sources, including Ensembl, NCBI dbSNP, GWAS Catalog, HERMES, and CARDIoGRAMplusC4D.
+The pipeline integrates multiple public data sources, including Ensembl, GWAS Catalog, HERMES, CARDIoGRAMplusC4D, FinnGen, and gnomAD.
 
 ---
 
@@ -22,6 +22,7 @@ mkdir -p data/raw/hermes
 mkdir -p data/raw/cardiogram_c4d
 mkdir -p data/raw/finngen
 ```
+
 ## 2. HERMES (Heart Failure)
 
 Download the summary statistics (excluding UK Biobank samples) from [here](https://www.kp4cd.org/node/283) and place the file as:
@@ -50,56 +51,40 @@ FinnGen is used as an independent replication resource.
 
 Access the data from [here](https://www.finngen.fi/en/access_results) or download the required datasets directly:
 
-- I9_HEARTFAIL (Heart failure, strict) - download [here](https://storage.googleapis.com/finngen-public-data-r12/summary_stats/release/finngen_R12_I9_HEARTFAIL.gz)  
-- I9_CHD (Major coronary heart disease event) - download [here](https://storage.googleapis.com/finngen-public-data-r12/summary_stats/release/finngen_R12_I9_CHD.gz)  
+- I9_HEARTFAIL (Heart failure, strict) - download [here](https://storage.googleapis.com/finngen-public-data-r12/summary_stats/release/finngen_R12_I9_HEARTFAIL.gz)
+- I9_CHD (Major coronary heart disease event) - download [here](https://storage.googleapis.com/finngen-public-data-r12/summary_stats/release/finngen_R12_I9_CHD.gz)
 - I9_MI_STRICT (Myocardial infarction, strict) - download [here](https://storage.googleapis.com/finngen-public-data-r12/summary_stats/release/finngen_R12_I9_MI_STRICT.gz)
 
 Place the files as:
 
-data/raw/finngen/finngen_hf.tsv  
-data/raw/finngen/finngen_cad.tsv  
+data/raw/finngen/finngen_hf.tsv
+data/raw/finngen/finngen_cad.tsv
 data/raw/finngen/finngen_mi.tsv
 
 ---
 
 ## 5. Notebook Execution Order
 
-### PF4 NCBI dbSNP Variant Annotation
+1. `01_gene_regions.ipynb`  
+   Retrieve genomic coordinates and define query regions for all genes in the gene list.
 
-1. `ncbi_variants.ipynb`  
-   Extract and annotate PF4-related variants together with frequency and positional annotations into the final `pf4_variants.csv` table.
+2. `02_gwas_catalog.ipynb`  
+   Retrieve SNP–trait associations for all gene regions from the GWAS Catalog API.
 
----
+3. `03_hermes.ipynb`  
+   Extract gene-region associations from the HERMES heart failure summary statistics.
 
-### Main PF4 Cardiovascular Association Analysis
+4. `04_cardiogram_c4d.ipynb`  
+   Extract gene-region associations from the CARDIoGRAMplusC4D CAD and MI summary statistics.
 
-1. `ensembl_region.ipynb`  
-   Retrieve the PF4 genomic coordinates and define the PF4 ±50 kb genomic region.
+5. `05_finngen.ipynb`  
+   Extract gene-region associations from the FinnGen HF, CAD, and MI summary statistics for independent replication.
 
-2. `gwas_catalog.ipynb`  
-   Retrieve PF4-related SNP–trait associations from the GWAS Catalog API.
+6. `06_cardiovascular_associations.ipynb`  
+   Combine all association results into the final `cardiovascular_associations.csv` table.
 
-3. `hermes.ipynb`  
-   Retrieve PF4-region associations from the HERMES HF summary statistics excluding UK Biobank samples.
+7. `07_gnomad.ipynb`  
+   Retrieve gnomAD variant frequency data for all gene regions and classify variants by allele-frequency thresholds.
 
-4. `hermes_ukb.ipynb` *(complementary analysis)*  
-   Retrieve PF4-region associations from the HERMES HF summary statistics including UK Biobank samples.
-
-5. `cardiogram_c4d.ipynb`  
-   Retrieve PF4-region associations from the CARDIoGRAMplusC4D CAD and MI datasets.
-
-6. `finngen_replication.ipynb`  
-   Perform independent replication analyses using FinnGen HF, CAD, and MI datasets.
-
-7. `association_results.ipynb`  
-   Combine the retrieved association results into the final `cardiovascular_associations.csv` table.
-
-8. `prioritized_variants.ipynb`  
-   Integrate cardiovascular association results with PF4 NCBI/dbSNP annotations and generate the `prioritized_variants.csv` table for PF4 rsID prioritization.
-
----
-
-### Quality-Control Summary
-
-1. `qc_summary.ipynb`  
-   Perform quality-control checks across the final association and variant tables and generate the final `qc_summary.csv` summary table.
+8. `08_qc_summary.ipynb`  
+   Perform quality-control checks across the final association table and generate the `qc_summary.csv` summary table.
