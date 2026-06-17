@@ -6,7 +6,7 @@ data/raw/hermes/hermes_hf_ukb.txt
 data/raw/finngen/finngen_hf.tsv
 data/raw/finngen/finngen_cad.tsv
 data/raw/finngen/finngen_mi.tsv
-data/final/gnomad_frequencies.csv
+data/final/gnomad/gnomad_frequencies.csv
 
 # Ignore IDE files
 .idea/
