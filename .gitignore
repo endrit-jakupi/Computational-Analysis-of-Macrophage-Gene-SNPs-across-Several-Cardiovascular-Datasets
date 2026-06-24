@@ -7,8 +7,6 @@ data/raw/finngen/finngen_hf.tsv
 data/raw/finngen/finngen_cad.tsv
 data/raw/finngen/finngen_mi.tsv
 data/interim/gnomad_frequencies.csv
-data/raw/1000genomes/
-data/interim/ld_clumping/
 
 # Ignore IDE files
 .idea/
