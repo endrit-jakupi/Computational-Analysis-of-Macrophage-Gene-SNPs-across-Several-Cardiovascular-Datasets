@@ -2,14 +2,15 @@
 
 ## Project Overview
 
-This project focuses on the computational analysis of genetic variants (SNPs) in and around a set of macrophage-related genes and their association with cardiovascular phenotypes such as heart failure, coronary artery disease, and myocardial infarction.
+This project focuses on the computational analysis of genetic variants (SNPs) in 
+and around a set of macrophage-related genes and their association with 
+cardiovascular phenotypes such as heart failure, coronary artery disease, and 
+myocardial infarction.
 
 The goal is to build a reproducible data pipeline that:
 - identifies SNPs located in the queried gene regions,
 - retrieves their association statistics from large GWAS datasets,
 - and organizes the results into structured representations for downstream analysis.
-
-The pipeline integrates multiple public data sources, including Ensembl, GWAS Catalog, HERMES, CARDIoGRAMplusC4D, FinnGen, and gnomAD.
 
 ---
 
@@ -25,13 +26,13 @@ mkdir -p data/raw/finngen
 
 ## 2. HERMES (Heart Failure)
 
-Download the summary statistics (excluding UK Biobank samples) from [here](https://www.kp4cd.org/node/283) and place the file as:
-
+Download the Heart Failure (HF) summary statistics (excluding UK Biobank samples) 
+from [here](https://www.kp4cd.org/node/283) and place the file as:
 data/raw/hermes/hermes_hf.tsv
 
 ---
 
-## 3. CARDIoGRAMplusC4D (CAD and MI)
+## 3. CARDIoGRAMplusC4D (Coronary Artery Disease and Myocardial Infarction)
 
 Download the harmonized GWAS summary statistics for:
 
