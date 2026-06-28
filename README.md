@@ -98,5 +98,5 @@ data/raw/finngen/finngen_mi.tsv
 
 10. `10_summary_tables.ipynb`
     Compute gene-level association counts, significance tier distributions,
-    functional consequence breakdowns, and top variants per gene across all
-    candidate genes and save the results to `summary_tables.xlsx`.
+    and functional consequence breakdowns across all candidate genes and
+    save the results to `summary_tables.xlsx`.
