@@ -91,12 +91,12 @@ data/raw/finngen/finngen_mi.tsv
    Perform quality-control checks across the cardiovascular association table and 
    the gnomAD variant frequency table, and generate the `qc_summary.xlsx` summary.
 
-9. `09_prioritized_variants.ipynb`  
-   Merge the cardiovascular association table with the gnomAD variant frequency 
-   annotations to produce the `prioritized_variants.csv`, `hf_prioritized_variants.csv`, 
-   and `top_variants_per_gene.csv` tables.
+9. `09_prioritized_variants.ipynb`
+   Merge the cardiovascular association table with the gnomAD variant frequency
+   annotations to produce the `prioritized_variants.csv` and
+   `hf_prioritized_variants.csv` tables.
 
-10. `10_summary_tables.ipynb`  
-    Compute gene-level association counts, significance tier distributions, and 
-    functional consequence breakdowns across all candidate genes and save the 
-    results to `summary_tables.xlsx`.
+10. `10_summary_tables.ipynb`
+    Compute gene-level association counts, significance tier distributions,
+    functional consequence breakdowns, and top variants per gene across all
+    candidate genes and save the results to `summary_tables.xlsx`.
